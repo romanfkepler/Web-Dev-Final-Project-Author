@@ -1,0 +1,99 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A fun and interactive website for old fans and new of
+            beloved children's author Frankie Blungsdon and her colorful worlds and characters">
+        <title>The Wondrous World of Frankie Blungsdon | children's author</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="store.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>The Wondrous World of Frankie Blungsdon</h1>
+        </header>
+        
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="author.html">Author</a></li>
+                <li><a href="works.html">Works</a>
+                    <ul>
+                        <li><a href="store.html">I Still Hear the Trees</a></li>
+                        <li><a href="store.html">Moms Need Mars</a></li>
+                        <li><a href="store.html">We Ride at Dusk</a>
+                            <ul>
+                                <li><a href="store.html">Book 1:<br>Lonesome Road</a></li>
+                                <li><a href="store.html">Book 2:<br>Starry Eyes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="mail.html">Mail</a></li>
+                <li class="lastitem"><a class="current" a href="store.html">Store</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h2>Buy your new favorite book right here!</h2>
+            <table id="tab">
+                <tr>
+                    <td>
+                        I Still Hear the Trees
+                    </td>
+                    <td>
+                        Moms Need Mars
+                    </td>
+                    <td>
+                        We Ride At Dusk:<br>Lonesome Road
+                    </td>
+                    <td>
+                        We Ride At Dusk:<br>Starry Eyes
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="treescover.png">
+                    </td>
+                    <td>
+                        <img src="momscover.png">
+                    </td>
+                    <td>
+                        <img src="duskcover.png">
+                    </td>
+                    <td>
+                        <img src="duskcover.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <button onclick="document.getElementById('myImage1').src='purchased.png'">
+                        Purchase</button><br>
+                        <img  id="myImage1" src="decoration.png" style="width:225">
+                    </td>
+                    <td>
+                        <button onclick="document.getElementById('myImage2').src='purchased.png'">
+                        Purchase</button><br>
+                        <img  id="myImage2" src="decoration.png" style="width:225">
+                    </td>
+                    <td>
+                        <button onclick="document.getElementById('myImage3').src='purchased.png'">
+                        Purchase</button><br>
+                        <img  id="myImage3" src="decoration.png" style="width:225">
+                    </td>
+                    <td>
+                        <button onclick="document.getElementById('myImage4').src='purchased.png'">
+                        Purchase</button><br>
+                        <img  id="myImage4" src="decoration.png" style="width:225">
+                    </td>
+                </tr>
+            </table>
+        </main>
+        
+        <footer>
+            
+        </footer>
+    </body>
+</html>

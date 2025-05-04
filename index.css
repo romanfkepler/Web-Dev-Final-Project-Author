@@ -1,0 +1,33 @@
+h2, h3 {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+h2 {
+    font-size: 35pt;
+    padding-top: 10px;
+    font-family: serif;
+    color: dodgerblue;
+}
+h3 {
+    width: 300px;
+    line-height: 20pt;
+    padding-top: 15pt;
+    font-size: 16pt;
+    padding-bottom: 10pt;
+    color: darkblue;
+}
+main {
+    background-image: url("deerforest.png");
+    padding-top: 50px;
+    height: 600px;
+}
+div {
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 500px;
+    box-shadow: 0 0 10px aliceblue;
+}
+h1 {
+    font-family: serif;
+}

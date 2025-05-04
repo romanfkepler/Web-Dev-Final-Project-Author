@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 { 
+    text-align: center; 
+    font-size: 40pt;
+    color: mediumslateblue;
+    text-shadow: 0 0 4px white;
+}
+header {
+    background-image: linear-gradient(to right, LightPink 0%, LightYellow 30%, CornflowerBlue 80%, Plum 100%);
+    padding: 5px;
+}
+body {
+    background-image: url(background.png);
+    margin: 0 auto;
+    width: 1250px;
+    border: 2px solid blue;
+    box-shadow: 0 0 10px blue;
+    align-content: center;
+}
+main {
+    background-color: white;
+    padding-top: 10px;
+    height: 600px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 65px
+}
+
+
+
+
+#nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    position: relative;
+}
+
+#nav_menu ul li { 
+    float: left;
+} 
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+    float: none;
+    position: relative;
+}
+
+#nav_menu ul ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#nav_menu ul li.lastitem ul li ul { left: -100%; }
+
+#nav_menu ul li:hover > ul { display: block; }
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#nav_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: .5em 0;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20pt;
+    color: cornsilk;
+}
+#nav_menu ul li a:visited {
+    color: cornsilk;
+}
+
+#nav_menu ul li.lastitem a {
+    width: 250px;
+} 
+
+#nav_menu ul li a.current { background-color: darksalmon }
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus { background-color: deepskyblue; }

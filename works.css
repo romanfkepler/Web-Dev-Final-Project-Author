@@ -1,0 +1,91 @@
+#sidebarA {
+    width: 33%;
+ /*   border: solid black;*/
+    float: left;
+    margin: 0 auto;
+    height: 600px;
+}
+main {
+    width: 32.5%;
+ /*   border: solid red; */
+    margin: 0 auto;
+    float: left;
+    height: 600px;
+}
+#sidebarB {
+    width: 30.5%;
+    float: right;
+  /*  border: solid green; */
+    margin: 0 auto;
+    height: 600px;
+}
+h3 {
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5em;
+    color: darkcyan;
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    font-size: 25pt;
+    color: dodgerblue;
+}
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}*/
+#sidebarA, #sidebarB {
+    padding-top: 75px;
+    background-color: white;
+}
+#momscover {
+    background-image: url("momscover.png");
+    width: 225px;
+    height: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#treescover {
+    background-image: url("treescover.png");
+    width: 225px;
+    height: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#duskcover {
+    background-image: url("duskcover.png");
+    width: 225px;
+    height: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#momscover:hover {
+    background-image: url("openbook.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#treescover:hover {
+    background-image: url("openbook.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#duskcover:hover {
+    background-image: url("openbook.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
